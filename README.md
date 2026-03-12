@@ -50,7 +50,7 @@ Peut tourner en natif sur la seedbox ou dans Docker — l'architecture modulaire
 
 > À réserver à ceux qui veulent une installation long terme, pas juste un script à lancer à la main.
 
-Voir [`BLACK-FLAG version seedbox/README.md`](BLACK-FLAG%20version%20seedbox/README.md) pour la documentation complète.
+Voir la [documentation complète](https://github.com/the40n8/cale-push) sur le repo dédié.
 
 ```bash
 # Cloner avec le submodule
