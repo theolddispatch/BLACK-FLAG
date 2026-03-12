@@ -20,19 +20,21 @@ Scripts pour uploads automatiques vers [La Cale](https://la-cale.space), tracker
 
 ## BLACK-FLAG version exec
 
-Script Bash autonome, à lancer manuellement ou via cron. Simple, sans dépendances.
+> À venir.
 
 ---
 
 ## BLACK-FLAG version API
 
-> À compléter.
+> À venir.
 
 ---
 
 ## BLACK-FLAG version web
 
-> À compléter.
+[`BLACK-FLAG version web/`](BLACK-FLAG%20version%20web/)
+
+Script Bash autonome, à lancer manuellement ou via cron. Simple, sans dépendances.
 
 ---
 
@@ -57,10 +59,10 @@ git clone --recurse-submodules https://github.com/theolddispatch/BLACK-FLAG
 
 ## Perroquet version API
 
-> À compléter.
+> À venir.
 
 ---
 
 ## Perroquet version web
 
-> À compléter.
+> À venir.
