@@ -2,6 +2,8 @@
 
 Scripts pour uploads automatiques vers [La Cale](https://la-cale.space), tracker privé français.
 
+> Projet issu de [theolddispatch/v2.0](https://github.com/theolddispatch/v2.0), migré ici pour mutualiser les efforts et centraliser les différentes versions.
+
 ## Sommaire
 
 ### Versions BLACK-FLAG
