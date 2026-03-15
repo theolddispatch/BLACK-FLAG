@@ -1,70 +1,31 @@
 # BLACK-FLAG
 
-Scripts pour uploads automatiques vers [La Cale](https://la-cale.space), tracker privé français.
+Outils pour uploads automatiques vers [La Cale](https://la-cale.space), tracker privé français.
 
-> Projet issu de [theolddispatch/v2.0](https://github.com/theolddispatch/v2.0), migré ici pour mutualiser les efforts et centraliser les différentes versions.
-
-## Sommaire
-
-### Versions BLACK-FLAG
-
-- [BLACK-FLAG version exec](#black-flag-version-exec)
-- [BLACK-FLAG version API](#black-flag-version-api)
-- [BLACK-FLAG version web](#black-flag-version-web)
-- [BLACK-FLAG version seedbox](#black-flag-version-seedbox)
-
-### Perroquet
-
-- [Perroquet version API](#perroquet-version-api)
-- [Perroquet version web](#perroquet-version-web)
+> Projet issu de [theolddispatch/v2.0](https://github.com/theolddispatch/v2.0), migré ici pour centraliser les différentes versions.
 
 ---
 
-## BLACK-FLAG version exec
+## cale-push (seedbox)
 
-> À venir.
+Par [the40n8](https://github.com/the40n8) — cible les seedbox.
 
----
+Pipeline complet de scan, nommage, upload et notifications, pensé pour s'intégrer à un environnement Radarr/Sonarr existant. Peut tourner en natif, dans Docker, ou s'installer comme service.
 
-## BLACK-FLAG version API
-
-> À venir.
+**Repo :** [the40n8/cale-push](https://github.com/the40n8/cale-push)
 
 ---
 
-## BLACK-FLAG version web
+## BLACK-FLAG version exe (desktop)
 
-[`BLACK-FLAG version web/`](BLACK-FLAG%20version%20web/)
+Par [Theolddispatch](https://github.com/theolddispatch) — version desktop avec interface graphique.
 
-Script Bash autonome, à lancer manuellement ou via cron. Simple, sans dépendances.
+Application qui automatise la création et l'upload de torrents vers La Cale. Récupération des métadonnées TMDb, parsing des noms de fichiers scene, vérification des doublons, intégration qBittorrent/Transmission, et monitoring du site. Disponible en Python ou en .exe standalone pour Windows.
 
----
-
-## BLACK-FLAG version seedbox
-
-[`BLACK-FLAG version seedbox/`](BLACK-FLAG%20version%20seedbox/)
-
-Pour ceux qui gèrent une seedbox et veulent une solution qui tourne toute seule : pipeline complet de scan, nommage, upload et notifications, pensé pour s'intégrer à un environnement Radarr/Sonarr existant.
-
-Peut tourner en natif sur la seedbox ou dans Docker — l'architecture modulaire (providers, uploaders, notifiers) permet d'adapter la configuration sans toucher au code. Gère les mises à jour, les erreurs et les doublons sans intervention manuelle.
-
-> À réserver à ceux qui veulent une installation long terme, pas juste un script à lancer à la main.
-
-Voir la [documentation complète](https://github.com/the40n8/cale-push) sur le repo dédié.
-
-```bash
-# Cloner avec le submodule
-git clone --recurse-submodules https://github.com/theolddispatch/BLACK-FLAG
-```
+**Repo :** [theolddispatch/BLACK-FLAG-version-exe](https://github.com/theolddispatch/BLACK-FLAG-version-exe)
 
 ---
 
-## Perroquet version API
+## Contribuer
 
-> À venir.
-
----
-
-## Perroquet version web
-
-> À venir.
+Les issues et PR concernant un outil en particulier doivent être ouverts sur le repo correspondant. Ouvrez une issue ici uniquement pour proposer un nouvel outil ou soumettre le vôtre à l'index.
